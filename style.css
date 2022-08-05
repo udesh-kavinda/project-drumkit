@@ -1,0 +1,43 @@
+*{ margin:0;
+    padding:0;
+
+}
+
+body{
+    background-image: url("dylan.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.keys{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+}
+
+.key{
+    font-size:45px;
+    padding:20px;
+    margin:10px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-self: center;
+    width:200px;
+    height: 200px;
+    background-color: rgba(54, 54, 54, 0.541);
+    border-radius:10px;
+    border:2px solid rgb(0, 0, 0)
+}
+
+kbd{
+    font-size:63px;
+    padding-top: 50px;
+    /* background-color:aquamarine; */
+    flex:2;
+}
+
+.sound{
+    flex:1;
+}
